@@ -36,12 +36,12 @@ const Home = () => {
                 </div>
             </Col>
             <Col lg='2'>
-              <div className="hero__img-box">
-                <video src={heroVideo} alt="" />
+              <div className="hero__img-box mt-4">
+                <video src={heroVideo} alt="" controls/>
                 </div>
               </Col>
             <Col lg='2'>
-              <div className="hero__img-box">
+              <div className="hero__img-box mt-3">
                 <img src={heroImg02} alt="" />
                 </div>
             </Col>
