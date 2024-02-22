@@ -10,7 +10,7 @@ const nav__links = [
     display: 'Home'
   },
   {
-    path: '#',
+    path: '/about',
     display: 'About'
   },
   {
@@ -34,9 +34,15 @@ const Header = () => {
               <div className="menu d-flex align-items-center gap-5">
                 {
                   nav__links.map((item, index) => (
-                    <NavLink to={item.path}>
+                    <li className="nav__item" key={index}>
+                    <NavLink 
+                      to={item.path}
+                      className={navClass => 
+                      navClass.isActive ? 'active__link' : ''
+                      }>
                       {item.display}
                     </NavLink>
+                    </li>
                   ))
                 }
               </div>
