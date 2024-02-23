@@ -8,6 +8,7 @@ import Subtitle from '../shared/Subtitle'
 import '../styles/home.css';
 import SearchBar from '../shared/SearchBar'
 import ServiceList from '../services/ServiceList'
+import FeaturedTourList from '../components/Featured-tours/FeaturedTourList'
 
 const Home = () => {
   return <>
@@ -74,6 +75,7 @@ const Home = () => {
             <Subtitle subtitle={"Heaven Places"} />
             <h2 className='featured__tour-title'>Your next trip starts here</h2>
           </Col>
+          <FeaturedTourList />
         </Row>
       </Container>
     </section>
