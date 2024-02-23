@@ -7,6 +7,7 @@ import { Col, Container, Row } from 'reactstrap'
 import Subtitle from '../shared/Subtitle'
 import '../styles/home.css';
 import SearchBar from '../shared/SearchBar'
+import ServiceList from '../services/ServiceList'
 
 const Home = () => {
   return <>
@@ -61,6 +62,7 @@ const Home = () => {
               Something best for you
               </h2>
           </Col>
+          <ServiceList />
         </Row>
       </Container>
     </section>
