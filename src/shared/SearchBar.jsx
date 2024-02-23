@@ -27,6 +27,9 @@ const SearchBar = () => {
             <input type="number" placeholder='0' />
           </div>
         </FormGroup>
+        <span className="search__icon" type='submit'>
+          <i class="ri-search-line"></i>
+        </span>
       </Form>
     </div>
   </Col>

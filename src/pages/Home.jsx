@@ -6,6 +6,7 @@ import worldImg from '../assets/images/world.png'
 import { Col, Container, Row } from 'reactstrap'
 import Subtitle from '../shared/Subtitle'
 import '../styles/home.css';
+import SearchBar from '../shared/SearchBar'
 
 const Home = () => {
   return <>
@@ -45,7 +46,7 @@ const Home = () => {
                 <img src={heroImg02} alt="" />
                 </div>
             </Col>
-
+        <SearchBar />
         </Row>
       </Container>
     </section>
