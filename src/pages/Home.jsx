@@ -66,6 +66,17 @@ const Home = () => {
         </Row>
       </Container>
     </section>
+
+    <section>
+      <Container>
+        <Row>
+          <Col lg='12' className='mb-5'>
+            <Subtitle subtitle={"Heaven Places"} />
+            <h2 className='featured__tour-title'>Your next trip starts here</h2>
+          </Col>
+        </Row>
+      </Container>
+    </section>
   </>
 }
 
