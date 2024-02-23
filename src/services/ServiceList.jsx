@@ -31,6 +31,7 @@ const ServiceList = () => {
                 <ServiceCard 
                     item={item} 
                     key={index}
+                    
                 />
             </Col>
         ))}
