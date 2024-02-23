@@ -79,6 +79,37 @@ const Home = () => {
         </Row>
       </Container>
     </section>
+
+    <section>
+      <Container>
+        <Row>
+          <Col lg='6'>
+            <div className="experience__content">
+              <Subtitle subtitle={"Experience"} />
+              <h2>With Our All Experience <br />We'll give you the best</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />
+              Veniam saepe porro est alias labore. Eveniet repudiandae modi nobis minima reiciendis ipsum animi, placeat optio odit praesentium architecto voluptate sed inventore!</p>
+            </div>
+            <div className="content__wrapper d-flex align-items-center gap-5">
+              <div className="counter__box">
+                <span>12k+</span>
+                <h6>Successful Trip</h6>
+              </div>
+              <div className="counter__box">
+                <span>2k+</span>
+                <h6>Regular Clients</h6>
+              </div>
+              <div className="counter__box">
+                <span>24k+</span>
+                <h6>Years Experience</h6>
+              </div>
+            </div>
+          </Col>
+          <Col lg='6'>
+          </Col>
+        </Row>
+      </Container>
+    </section>
   </>
 }
 
