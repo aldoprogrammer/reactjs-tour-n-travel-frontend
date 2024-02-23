@@ -50,6 +50,20 @@ const Home = () => {
         </Row>
       </Container>
     </section>
+    <section>
+      <Container>
+        <Row>
+          <Col lg='3'>
+            <h5 className='services__subtitle'>
+              Look at What We Offer
+              </h5>
+            <h2 className='services__title'>
+              Something best for you
+              </h2>
+          </Col>
+        </Row>
+      </Container>
+    </section>
   </>
 }
 
