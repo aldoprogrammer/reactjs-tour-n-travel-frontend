@@ -19,8 +19,22 @@
     width: max-content;
     height: max-content;
     background-color: var(--secondary-color);
-    color: var(--heading-color);
+    color: #fff;
     padding: 0.5rem 1rem;
     border-radius: 5px 0 5px 0;
     font-size: 1.1rem;
+}
+
+.card__top span i {
+    color: var(--secondary-color);
+}
+
+.tour__rating {
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.tour__location {
+    color: var(--heading-color);
+    font-weight: 500;
 }
