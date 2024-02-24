@@ -11,6 +11,7 @@ import SearchBar from '../shared/SearchBar'
 import ServiceList from '../services/ServiceList'
 import FeaturedTourList from '../components/Featured-tours/FeaturedTourList'
 import MasonryImagesGallery from '../components/image-gallery/MasonryImagesGallery'
+import Testimonials from '../components/Testimonial/Testimonials'
 
 
 const Home = () => {
@@ -129,6 +130,22 @@ const Home = () => {
 
           <Col lg='12'>
               <MasonryImagesGallery />
+          </Col>
+        </Row>
+      </Container>
+    </section>
+
+    <section>
+      <Container>
+        <Row>
+          <Col lg='12'>
+            <Subtitle subtitle={"Testimonial"} />
+            <h2 className='testimonial__title'>
+              What Our Clients Say
+            </h2>
+          </Col>
+          <Col lg='12'>
+            <Testimonials />
           </Col>
         </Row>
       </Container>
