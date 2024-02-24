@@ -12,6 +12,7 @@ import ServiceList from '../services/ServiceList'
 import FeaturedTourList from '../components/Featured-tours/FeaturedTourList'
 import MasonryImagesGallery from '../components/image-gallery/MasonryImagesGallery'
 
+
 const Home = () => {
   return <>
     <section>
