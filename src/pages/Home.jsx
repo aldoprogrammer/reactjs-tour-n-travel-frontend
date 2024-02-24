@@ -10,6 +10,7 @@ import '../styles/home.css';
 import SearchBar from '../shared/SearchBar'
 import ServiceList from '../services/ServiceList'
 import FeaturedTourList from '../components/Featured-tours/FeaturedTourList'
+import MasonryImagesGallery from '../components/image-gallery/MasonryImagesGallery'
 
 const Home = () => {
   return <>
@@ -110,6 +111,23 @@ const Home = () => {
             <div className="experience__img">
               <img src={experienceImg} alt="" />
             </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+
+    <section>
+      <Container>
+        <Row>
+          <Col lg='12'>
+            <Subtitle subtitle={"Our World"} />
+            <h2 className='Gallery__title'>
+              Visit the Best Places on Earth
+            </h2>
+          </Col>
+
+          <Col lg='12'>
+              <MasonryImagesGallery />
           </Col>
         </Row>
       </Container>
